@@ -42,3 +42,10 @@ The application window will appear, and the user can follow the on-screen instru
 
 This program is provided as-is without any warranties. Feel free to modify and distribute it as you see fit.
 
+## Changes:- 
+
+- Altered Button Text - renamed to "Chin Tapak Dum Dum"
+
+- Altered Width and Height of button to make it look more proportionate. 
+
+- Altered Background color, text color of Button, to make it visually appealing. 
