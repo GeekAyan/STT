@@ -26,7 +26,7 @@ public class SymbolApp extends Frame implements ActionListener {
             "Don't tell me, I'll read your mind! Hit the below button when you are ready to see the magic!",
             5, 60, TextArea.SCROLLBARS_NONE);
         instruction.setEditable(false);
-        instruction.setFont(new Font("Arial", Font.PLAIN, 16));
+        instruction.setFont(new Font("Arial", Font.PLAIN, 24));
         add(instruction, BorderLayout.NORTH);
 
         // Panel for symbols
@@ -41,7 +41,7 @@ public class SymbolApp extends Frame implements ActionListener {
 
         // Panel for submit button
         Panel controlPanel = new Panel(new FlowLayout());
-        submitButton = new Button("Submit");
+        submitButton = new Button("Chin Tapak Dum Dum");
         submitButton.addActionListener(this);
         controlPanel.add(submitButton);
         add(controlPanel, BorderLayout.SOUTH);
