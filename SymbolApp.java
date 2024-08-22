@@ -21,10 +21,10 @@ public class SymbolApp extends Frame implements ActionListener {
 
         // Adding instruction message
         TextArea instruction = new TextArea(
-            "Think of any two digit number. Now reverse it and find the difference of them.\n" +
-            "Now find the number you got and remember the symbol from the panel below.\n" +
-            "Don't tell me, I'll read your mind! Hit the below button when you are ready to see the magic!",
-            5, 60, TextArea.SCROLLBARS_NONE);
+                "Think of any two digit number. Now reverse it and find the difference of them.\n" +
+                        "Now find the number you got and remember the symbol from the panel below.\n" +
+                        "Don't tell me, I'll read your mind! Hit the below button when you are ready to see the magic!",
+                5, 60, TextArea.SCROLLBARS_NONE);
         instruction.setEditable(false);
         instruction.setFont(new Font("Arial", Font.PLAIN, 16));
         add(instruction, BorderLayout.NORTH);
@@ -41,7 +41,7 @@ public class SymbolApp extends Frame implements ActionListener {
 
         // Panel for submit button
         Panel controlPanel = new Panel(new FlowLayout());
-        submitButton = new Button("Submit");
+        submitButton = new Button("Chin Tapak Dum Dum");
         submitButton.addActionListener(this);
         controlPanel.add(submitButton);
         add(controlPanel, BorderLayout.SOUTH);
