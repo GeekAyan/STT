@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.Random;
 
-public class SymbolApp extends Frame implements ActionListener {
+class SymbolApp extends Frame implements ActionListener {
     private Label[] symbolLabels = new Label[99];
     private Button submitButton;
     private String specialSymbol;
@@ -41,7 +41,12 @@ public class SymbolApp extends Frame implements ActionListener {
 
         // Panel for submit button
         Panel controlPanel = new Panel(new FlowLayout());
-        submitButton = new Button("Submit");
+        submitButton = new Button("Chin Tapak Dum Dum");
+        submitButton.setPreferredSize(new Dimension(250, 50)); // Make the button larger
+        submitButton.setFont(new Font("Serif", Font.BOLD | Font.ITALIC, 20)); // Change font style
+        submitButton.setBackground(Color.RED); // Set background color
+        submitButton.setForeground(Color.WHITE); // Set text color
+        submitButton.setCursor(new Cursor(Cursor.HAND_CURSOR)); // Change cursor when hovering
         submitButton.addActionListener(this);
         controlPanel.add(submitButton);
         add(controlPanel, BorderLayout.SOUTH);
