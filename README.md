@@ -1,4 +1,4 @@
-# Symbol Mind Reading Java Application
+# CHIN TAPAK DUM DUM Mind Reading Java Application
 
 ## Description
 
