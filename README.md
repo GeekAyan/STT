@@ -1,4 +1,4 @@
-# CHIN TAPAK DUM DUM Mind Reading Java Application
+#  Mind Reading Java Application
 
 ## Description
 
