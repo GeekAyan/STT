@@ -43,7 +43,7 @@ public class SymbolApp extends Frame implements ActionListener {
         Panel controlPanel = new Panel(new FlowLayout());
         submitButton = new Button("Submit");
         submitButton.addActionListener(this);
-        controlPanel.add(submitButton);
+        controlPanel.add(" chin tapak dum dum");
         add(controlPanel, BorderLayout.SOUTH);
 
         // Setting up the window close event
